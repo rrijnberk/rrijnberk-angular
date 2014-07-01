@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head></head>
+	<body>
+		<form name="myform" ng-controller="formcontroller">
+			Voornaam: <input type="text" name="firstname"/><br/>
+			Achternaam: <input type="text" name="lastname"/><br/>
+
+			<input type="button" value="Versturen" ng-click="submit()"/><br/><br/>
+			Aantal pogingen : {{data.attempts}} <br/>
+			Resultaat : <span ng-if="data.complete">Correct</span>
+			<span ng-if="!data.complete">Nog niet correct</span>
+		</form>
+
+
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/controllers/formcontroller.js"></script>
+	</body>
+</html>
