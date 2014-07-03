@@ -1,0 +1,49 @@
+<ul>
+	<li class="headerCard">Persoons gegevens</li>
+	<li>
+		<h2>Producten</h2>
+		<ul>
+			<li>
+				<h3>Betaal rekeningen</h3>
+				<ul>
+					<menu-item ng-repeat="menuitem in data.paymentAccounts"></menu-item>
+					<li>
+						<button name="newTransaction">Nieuwe overboeking</button>
+					</li>
+					<li>
+						Limiet verhogen
+					</li>
+					<li>
+						Pas Blokkeren
+					</li>
+					<li>
+						Alle services
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h3>Spaar rekeningen</h3>
+				<ul>
+					<menu-item ng-repeat="menuitem in data.savingAccounts">Yo</menu-item>
+				</ul>
+			</li>
+			<li>
+				<h3>Nieuws en kennis</h3>
+				<ul>
+					<li>Interessant voor u</li>
+				</ul>
+			</li>
+			<li>
+				<h3>Service</h3>
+				<ul>
+					<li>Zelf regelen</li>
+					<li>Feedback</li>
+					<li>Over deze app</li>
+				</ul>
+			</li>
+
+		</ul>
+	</li>
+
+	<li class="footerCard">Uitloggen</li>
+</ul>

@@ -1,0 +1,15 @@
+<li>
+	<div class="card">
+		<div class="ProductName">
+			<span ng-if="menuitem.Configuration.CustomProductName == ''">{{menuitem.ProductName}}</span>
+			<span ng-if="menuitem.Configuration.CustomProductName != ''">{{menuitem.Configuration.CustomProductName}}</span>
+			<span>
+				{{menuitem.Balance | currency:menuitem.Currency+' '}}
+			</span>
+		</div>
+		<div class="IBAN">
+			{{menuitem.IBAN}}
+		</div>
+	</div>
+	<br/>
+</li>

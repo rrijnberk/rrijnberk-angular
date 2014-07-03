@@ -1,0 +1,139 @@
+{
+	"AdditionalProducts": {
+		"CreditcardProducts": true
+	},
+	"TimeStamp": "2014-02-06T16:31:16.060+01:00",
+	"Accounts": {
+		"Account": [
+			{
+				"Number": "101774699",
+				"IBAN": "NL37RABO0101774699",
+				"ProductName": "Rabo TotaalRekening",
+				"Ascription": "H. ZPMCVNKTHCBBBHHBL",
+				"Currency": "EUR",
+				"Balance": 105.15,
+				"SpendingLimit": 105.15,
+				"Authorization": {
+					"TransactionInformation": {},
+					"Payment": {},
+					"OwnAccount": {},
+					"ToThis": {}
+				},
+				"Configuration": {
+					"ShowProduct": true,
+					"SortingOrder": 3,
+					"CustomProductName": ""
+				}
+			},
+			{
+				"Number": "125681097",
+				"IBAN": "NL17RABO0125681097",
+				"ProductName": "Rabo Beleggersrekening",
+				"Ascription": "H. ZPMCVNKTHCBBBHHBL",
+				"Currency": "EUR",
+				"Balance": 46395.21,
+				"SpendingLimit": 46395.21,
+				"Authorization": {
+					"TransactionInformation": {
+
+					},
+					"OwnAccount": {
+
+					},
+					"ToThis": {
+
+					}
+				},
+				"Configuration": {
+					"ShowProduct": true,
+					"SortingOrder": 1,
+					"CustomProductName": ""
+				}
+			},
+			{
+				"Number": "1",
+				"IBAN": "NL62RABO0177880643",
+				"ProductName": "Rabo Directrekening",
+				"Ascription": "G.H.I. de Vries",
+				"Currency": "EUR",
+				"Balance": 231.1,
+				"SpendingLimit": "100",
+				"Authorization": {
+					"TransactionInformation": {
+
+					},
+					"Payment": {
+
+					},
+					"OwnAccount": {
+
+					},
+					"ToThis": {
+
+					}
+				},
+				"Configuration": {
+					"ShowProduct": true,
+					"SortingOrder": 4,
+					"CustomProductName": "RaboDirectrekening"
+				}
+			},
+			{
+				"Number": "2",
+				"IBAN": "NL62RABO0177880644",
+				"ProductName": "Boodschappenrekening",
+				"Ascription": "M.G. Poelstra",
+				"Currency": "EUR",
+				"Balance": 2565.33,
+				"SpendingLimit": "100",
+				"Authorization": {
+					"TransactionInformation": {
+
+					},
+					"Payment": {
+
+					},
+					"OwnAccount": {
+
+					},
+					"ToThis": {
+
+					}
+				},
+				"Configuration": {
+					"ShowProduct": true,
+					"SortingOrder": 0,
+					"CustomProductName": ""
+				}
+			},
+			{
+				"Number": "3",
+				"IBAN": "NL62RABO0177880645",
+				"ProductName": "Gezamenlijke rekening",
+				"Ascription": "M.G. Poelstra CJ",
+				"Currency": "EUR",
+				"Balance": 4565.33,
+				"SpendingLimit": "100",
+				"Authorization": {
+					"TransactionInformation": {
+
+					},
+					"Payment": {
+
+					},
+					"OwnAccount": {
+
+					},
+					"ToThis": {
+
+					}
+				},
+				"Configuration": {
+					"ShowProduct": true,
+					"SortingOrder": 2,
+					"CustomProductName": "Gezamelijk"
+				}
+			}
+		]
+	}
+}

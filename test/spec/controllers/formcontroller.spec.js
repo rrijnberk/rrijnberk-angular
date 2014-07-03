@@ -3,7 +3,7 @@
 describe('Controller: formcontroller', function () {
 
     // load the controller's module
-    beforeEach(module('app'));
+    beforeEach(module('sandbox'));
 
     var formcontroller,
         scope;

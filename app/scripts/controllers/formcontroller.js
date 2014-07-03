@@ -1,4 +1,4 @@
-angular.module('app').controller('formcontroller', ['$scope', function ($scope) {
+angular.module('sandbox').controller('formcontroller', ['$scope', function ($scope) {
 	'use strict';
 	$scope.data = {
 		attempts: 0,
