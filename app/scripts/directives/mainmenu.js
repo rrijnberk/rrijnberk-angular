@@ -1,4 +1,4 @@
-angular.module('components').directive('mainmenu', ['accountsService', function(accountsService){
+angular.module('components').directive('mainmenu', ['accountsService', 'newsItemsService', function(accountsService, newsItemsService){
 	'use strict';
 
 
@@ -7,11 +7,13 @@ angular.module('components').directive('mainmenu', ['accountsService', function(
 		replace: true,
 		templateUrl: 'templates/mainmenu.html',
 		link: function (scope) {
+			scope.data = {};
 			accountsService.getAccounts().then(function(response){
-				scope.data = {
-					paymentAccounts: response.data.payment,
-					savingAccounts: response.data.saving
-				};
+				scope.data.paymentAccounts= response.data.payment;
+				scope.data.savingAccounts = response.data.saving;
+			});
+			newsItemsService.getNewItemsCount().then(function(newNewsItemsCount){
+				scope.data.newNewsItems = newNewsItemsCount;
 			});
 		}
 	};
