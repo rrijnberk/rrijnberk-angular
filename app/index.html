@@ -3,18 +3,34 @@
 	<head></head>
 	<body>
 		<hr />
-		<mainmenu></mainmenu>
+		<mainmenu class="rb-menu"></mainmenu>
 		<hr />
 
-		<ul>
-			<menu-item></menu-item>
-		</ul>
+		<supercircle size="32" image-url="/io.jpg"></supercircle>
+		<supercircle size="64" image-url="/io.jpg"></supercircle>
+		<supercircle size="100" image-url="/io.jpg"></supercircle>
+		<supercircle size="128" image-url="/io.jpg"></supercircle>
+		<supercircle size="256" image-url="/io.jpg"></supercircle>
+		<supercircle size="512" image-url="/io.jpg"></supercircle>
+		<supercircle size="1024" image-url="/io.jpg"></supercircle>
+
+		<hr />
+
+		<supercircle size="32" border="4" image-url="/io.jpg"></supercircle>
+		<supercircle size="64" border="4" image-url="/io.jpg"></supercircle>
+		<supercircle size="100" border="4" image-url="/io.jpg"></supercircle>
+		<supercircle size="128" border="4" image-url="/io.jpg"></supercircle>
+		<supercircle size="256" border="4" image-url="/io.jpg"></supercircle>
+		<supercircle size="512" border="4" image-url="/io.jpg"></supercircle>
+		<supercircle size="1024" border="4" image-url="/io.jpg"></supercircle>
+
 
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="scripts/app.js"></script>
-		<script src="scripts/controllers/formcontroller.js"></script>
 		<script src="scripts/directives/mainmenu.js"></script>
 		<script src="scripts/directives/menuItem.js"></script>
+		<script src="scripts/directives/supercircle.js"></script>
 		<script src="scripts/services/accountsService.js"></script>
+		<script src="scripts/services/newsItemsService.js"></script>
 	</body>
 </html>
